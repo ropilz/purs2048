@@ -1,0 +1,17 @@
+{
+  "name": "purs-2048",
+  "version": "1.0.0",
+  "description": "2048 Gregor ulm implementation running on purs",
+  "main": "index.js",
+  "author": "Rodrigo Claros <kageto@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack -p",
+    "start": "webpack-dev-server"
+  },
+  "dependencies": {
+    "purescript": "^0.10.2",
+    "purs-loader": "^2.1.1",
+    "webpack": "2.1.0-beta.27"
+  }
+}
