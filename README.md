@@ -3,7 +3,7 @@ Purescript 2048
 
 This code is a Purescript port from h2048 implementation by Gregor Ulm in haskell
 
-** Displaimer ** I'm not familiar with Haskell nor Purescript, this was only done only for fun. Any feedback is welcome
+** Disclaimer ** I'm not familiar with Haskell nor Purescript, this was only done only for fun. Any feedback is welcome
 
 How to run locally
 ------------------
