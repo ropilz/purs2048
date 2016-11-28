@@ -3,10 +3,11 @@
 h2048
 A Haskell implementation of 2048.
 
-Gregor Ulm
+Author: Gregor Ulm
+ported by: Rodrigo Claros
 
 last update:
-2014-06-18
+2016-11-28
 
 Please consult the file README for further information
 on this program.
@@ -59,8 +60,8 @@ merge :: List Int -> List Int
 merge xs = merged ++ padding
     where padding = replicate (length xs - length merged) 0
           merged  = combine $ filter (notEq 0) xs
-          combine (x:y:xs) | x == y = x * 2 : combine xs
-                           | otherwise = x  : combine (y:xs)
+          combine (x:y:xsi) | x == y = x * 2 : combine xsi
+                            | otherwise = x  : combine (y:xsi)
           combine x = x
 
 move :: Move -> Grid -> Grid

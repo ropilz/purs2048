@@ -8,13 +8,15 @@
   "scripts": {
     "build": "webpack -p",
     "start": "webpack-dev-server",
-    "bower-install": "bower install --save"
+    "bower-install": "bower install --save",
+    "postinstall": "bower install"
   },
   "dependencies": {
     "bower": "^1.8.0",
     "html-webpack-plugin": "^2.24.1",
     "purescript": "^0.10.2",
     "purs-loader": "^2.1.1",
-    "webpack": "2.1.0-beta.27"
+    "webpack": "2.1.0-beta.27",
+    "webpack-dev-server": "2.1.0-beta.10"
   }
 }

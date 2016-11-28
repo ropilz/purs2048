@@ -17,9 +17,7 @@
   "dependencies": {
     "purescript-console": "^2.0.0",
     "purescript-lists": "^3.2.1",
-    "purescript-math": "^2.0.0",
     "purescript-prelude": "^2.1.0",
-    "purescript-random": "^2.0.0",
-    "purescript-aff": "^2.0.1"
+    "purescript-random": "^2.0.0"
   }
 }
