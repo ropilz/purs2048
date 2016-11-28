@@ -1,0 +1,25 @@
+{
+  "name": "purs-2048",
+  "description": "2048 Gregor ulm implementation running on purs",
+  "main": "index.js",
+  "authors": [
+    "Rodrigo Claros <kageto@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "purescript-console": "^2.0.0",
+    "purescript-lists": "^3.2.1",
+    "purescript-math": "^2.0.0",
+    "purescript-prelude": "^2.1.0",
+    "purescript-random": "^2.0.0",
+    "purescript-aff": "^2.0.1"
+  }
+}

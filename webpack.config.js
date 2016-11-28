@@ -1,14 +1,14 @@
 'use strict';
 
 const webpack = require("webpack");
-// const HtmlWebpackPlugin = require('html-webpack-plugin');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 // const CopyWebpackPlugin = require('copy-webpack-plugin');
 // const CleanWebpackPlugin = require('clean-webpack-plugin');
 
 module.exports = {
   context: __dirname + "/src",
   entry: {
-    app: "./h2048.purs"
+    app: "./h2048"
   },
   devtool: 'source-map',
   resolve: {
@@ -28,5 +28,10 @@ module.exports = {
       }
     ],
   },
-  plugins: []
+  plugins: [
+    new HtmlWebpackPlugin ({
+      inject: true,
+      template: './index.html'
+    })
+  ]
 };

@@ -1,1 +1,6 @@
 node_modules
+dist
+output
+/.psc-ide-port
+/bower_components
+/yarn-error.log
